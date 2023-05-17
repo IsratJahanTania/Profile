@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #8a8787;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-page {
+    width: 1140px;
+    height: 800px;
+    background-color: #fff;
+}
+ .navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(64, 64, 252);
+    display: flex;
+    justify-content: space-between;
+}
+.bars {
+    display: flex;
+}
+.bars a i {
+    color: white;
+    padding: 28px;
+    font-size: 30px;
+}
+.bars h3 {
+    color: #fff;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.icons {
+    display: flex;
+}
+.icons .search a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+.icons .search a i {
+    margin-top: 28px;
+    margin-left: -140px;
+}
+.icons .menu-bar a {
+    color: #fff;
+    font-size: 30px;
+}
+.icons .menu-bar a i {
+    margin-top: 28px;
+    margin-left: -50px;
+}
+.profile-page .profile-picture {
+    width: 100%;
+    height: 150px;
+    background-color: #d1cfcf;
+}
+.profile-picture img {
+    padding-top: 40px;
+    margin-left: 80px;
+}
+.profile-picture h1 {
+    margin-left: 172px;
+    margin-top: -70px;
+    color: #222121;
+}
+.profile-picture p {
+    margin-left: 172px;
+    margin-top: 3px;
+    color: #8a8787;
+    font-weight: 200;
+}
+.menu-list  {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.menu-list ul {
+    list-style: none;
+}
+.menu-list ul li {
+    padding: 20px;
+}
+.menu-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 10px;
+    margin-left: 10px;
+}
+.menu-list ul li a i {
+    padding: 10px;
+}
